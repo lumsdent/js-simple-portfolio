@@ -1,0 +1,43 @@
+:root{
+    --main-color: #EBEBEB;
+    --secondary-color:#3A6EA5;
+    --grey: #C0C0C0;
+    --attention-color:#FF6700;
+}
+
+header{
+    background-color: var(--secondary-color);
+    border-bottom: 2px solid var(--attention-color);
+}
+footer{
+    background-color: var(--secondary-color);
+}
+body{
+    background-color: var(--main-color);
+}
+
+
+.nav-list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+.nav-card{
+    color:var(--main-color);
+}
+
+
+
+.project-tile{
+    width:20%;
+    height: 20vw;
+    margin: 20px;
+    border: 1px solid var(--attention-color);
+    padding: 10px;
+    box-shadow: 12px 12px 5px 5px var(--grey) ;
+}
+
+#project-list{
+    display: flex;
+    list-style-type: none;
+}
